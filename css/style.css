@@ -259,6 +259,32 @@ img {
 /*services*/
 
 /*about*/
-
+.about {
+    display: grid;
+    grid-template-columns: 625px 495px;
+    grid-template-rows: repeat(3, 1f);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    column-gap: 50px;
+}
+.about__img {
+    grid-area: 1 / 2 / 4 / 3;
+}
+.about__title {
+    font-size: 36px;
+    margin: 0 0 50px;
+}
+.about__text {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 0 35px;
+}
+.btn_bordered {
+    border: 3px solid #2D5E5E;
+    background-color: transparent;
+    margin-right: 30px;
+}
 /*about*/
 
