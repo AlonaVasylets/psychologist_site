@@ -460,3 +460,23 @@ img {
 }
 
 /*about*/
+
+/*contact-form_discount*/
+.contact-form_discount {
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: auto 40px auto;
+    padding-left: calc(50vw - 585px);
+    padding-right: calc(50vw - 585px);
+    column-gap: 32px;
+    row-gap: 15px;
+}
+
+.subtitle.contact-form__subtitle {
+    margin: 0 0 45px;
+}
+
+.discount-btn {
+    max-width: 370px;
+}
+
+/*contact-form_discount*/
