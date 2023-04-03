@@ -132,11 +132,11 @@
             <h2 class="subtitle">
                 Записаться на прием
             </h2>
-            <input type="text" name="your name" placeholder="Ваше имя *" class="contact-form__input">
-            <input type="text" name="your phone" placeholder="Ваш телефон *" class="contact-form__input">
+            <input type="text" name="your name" placeholder="Ваше имя *" class="contact-form__input" required>
+            <input type="text" name="your phone" placeholder="Ваш телефон *" class="contact-form__input" required>
             <label class="select">
-                <select class="select__input" name="select">
-                    <option value="topic meeting">Тема встречи *</option>
+                <select class="select__input" name="select" required>
+                    <option value="">Тема встречи *</option>
                     <option value="topic 1">Тема 1</option>
                     <option value="topic 2">Тема 2</option>
                 </select>
@@ -229,8 +229,8 @@
             <h2 class="subtitle contact-form__subtitle">
                 Записаться со скидкой 50 грн
             </h2>
-            <input type="text" name="your name" placeholder="Ваше имя *" class="contact-form__input">
-            <input type="text" name="your phone" placeholder="Ваш телефон *" class="contact-form__input">
+            <input type="text" name="your name" placeholder="Ваше имя *" class="contact-form__input" required>
+            <input type="text" name="your phone" placeholder="Ваш телефон *" class="contact-form__input" required>
             <button class="btn discount-btn" type="submit">
                 Записаться со скидкой
             </button>
